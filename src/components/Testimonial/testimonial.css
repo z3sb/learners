@@ -1,0 +1,20 @@
+.testimonial__content h2{
+  font-weight: 600;
+}
+.testimonial__content,
+.testimonial__img{
+  width: 50%;
+}
+@media (max-width: 767px) {
+  .testimonial__wrapper{
+    flex-direction: column;
+    width: 100%;
+  }
+  .testimonial__img{
+    margin-bottom: 20px;
+  }
+  .testimonial__content,
+  .testimonial__img{
+    width: 100%;
+  }
+}

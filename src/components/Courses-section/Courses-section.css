@@ -1,0 +1,55 @@
+.single__course__item{
+  padding: 14px;
+}
+.course__img img{
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+.lesson, .students, .rating{
+  font-size: 0.9rem;
+  color: #0a2b1e;
+  font-weight: 500;
+}
+.lesson i, .students i, .rating i{
+  font-weight: 400;
+}
+.enroll a{
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 0.9rem;
+  color: #07bf9e;
+}
+.course__title{
+  line-height: 2rem;
+}
+.course__top__left{
+  width: 50%;
+}
+.course__top__right{
+  text-align: right;
+  width: 50%;
+}
+.course__top__right button{
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}
+@media (max-width: 767px) {
+  .course__top{
+    flex-direction: column;
+    margin-bottom: 45px;
+    padding: 0 20px;
+  }
+  .course__top__left{
+    width: 100%;
+  }
+  .course__top__right{
+    width: 100%;
+    text-align: center;
+    height: auto;
+  }
+  .course__top__right button{
+    top: 0;
+    transform: translateY(0);
+  }
+}
